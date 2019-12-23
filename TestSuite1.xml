@@ -1,0 +1,68 @@
+<!--Alvina Kamran  Test cases-->
+
+<suite name="Regression Suite - 1">
+
+    <test name="LoginFSP/ReturnFlight/GTServices">
+        <classes>
+
+            <!--Fsp user-->
+            <class name="Testcases.loginTests">
+                <methods>
+                    <parameter name="username" value="dan22@gmail.com"/>
+                    <parameter name="password" value="Abc12345"/>
+                    <include name="loginIntoVistaJetApplication"></include>
+                </methods>
+            </class>
+
+            <class name="Testcases.ReturnFlightTest">
+                <methods>
+                    <include name="ReturnFlightFlow"></include>
+                </methods>
+            </class>
+
+            <!--Return a flight is a pre-req-->
+            <class name="Testcases.TransportServicesTest">
+                <methods>
+                    <include name="GTServices"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+    <test name="LoginVJ/SimulateFlight/TopUp/ELOffers">
+        <classes>
+
+            <!--Vj direct user-->
+            <class name="Testcases.loginTests">
+                <methods>
+                    <parameter name="username" value="dan23@gmail.com"/>
+                    <parameter name="password" value="Abc12345"/>
+                    <include name="loginIntoVistaJetApplication"></include>
+                </methods>
+            </class>
+
+            <class name="Testcases.SimulateFlightTest">
+                <methods>
+                    <include name="SimulateFlightFlow"></include>
+                </methods>
+            </class>
+
+            <class name="Testcases.TopUpTest">
+                <methods>
+                    <include name="TopUpAccount"></include>
+                </methods>
+            </class>
+
+            <!--GV dependency. Will fail if no offers available-->
+            <class name="Testcases.ELOffersTest">
+                <methods>
+                    <include name="AvailELOffers"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

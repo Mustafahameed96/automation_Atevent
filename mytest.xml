@@ -1,0 +1,21 @@
+<suite name="Regression Suite ">
+
+    <test name="Login">
+        <classes>
+
+            <!--Fsp user-->
+            <class name="Testcases.AtEvent_LoginTest">
+                <methods>
+                    <parameter name="username" value="ghufran@gmail.com"/>
+                    <parameter name="password" value="Admin123!"/>
+                    <include name="login into at Event"></include>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+
+
+
+</suite>

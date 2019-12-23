@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Regression Suite">
+    <suite-files>
+        <suite-file path="TestSuite1.xml" />
+        <suite-file path="TestSuite2.xml" />
+        <suite-file path="TestSuite3.xml" />
+        <suite-file path="TestSuite4.xml" />
+        <suite-file path="TestSuite5.xml" />
+        <suite-file path="TestSuite6.xml" />
+        <!--&lt;!&ndash;&lt;!&ndash;<suite-file path="TestSuite7.xml" />&ndash;&gt;&ndash;&gt;-->
+        <suite-file path="TestSuite8.xml" />
+        <suite-file path="TestSuite9.xml" />
+    </suite-files>
+</suite>
