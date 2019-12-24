@@ -11,6 +11,12 @@
                     <include name="login into at Event"></include>
                 </methods>
             </class>
+            <class name="Testcases.Switch_AddgroupTest">
+                <methods>
+
+                    <include name="My test"></include>
+                </methods>
+            </class>
 
 
         </classes>

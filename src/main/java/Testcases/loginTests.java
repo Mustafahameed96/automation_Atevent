@@ -13,9 +13,7 @@ import static Objects.loginPage.by_logout;
 
 public class loginTests extends baseTest {
 
-    @Parameters({"username", "password"})
-    @Test(description = "VWSHADOW-6591")
-    //http://jira.vistajet.local/browse/VWSHADOW-6591
+
 
     public static void loginIntoVistaJetApplication(String username, String password) throws InterruptedException
     {

@@ -18,6 +18,7 @@ public class ApplicationConfigReader {
     @Property("Environment")
     private String Environment;
 
+
     @Property("Device")
     private String Device;
 
@@ -58,6 +59,7 @@ public class ApplicationConfigReader {
     public String getEnvironment() {
         return this.Environment;
     }
+
 
     public String getDevice() {
         return this.Device;

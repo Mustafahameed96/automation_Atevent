@@ -27,8 +27,8 @@ public class AtEvent_Login {
     {
         WebDriverFactory.getDriver().findElement(byLoginButton).click();
 
-        WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), 30);
-        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/app-root/div/div[1]/app-header/header/div[3]/div/a[1]")));
+        WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), 5);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/header/div/nav/div/ul[2]/li[1]/i")));
 
         boolean status= element.isDisplayed();
         if(status)

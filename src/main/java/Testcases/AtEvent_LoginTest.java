@@ -16,20 +16,20 @@ public class AtEvent_LoginTest  extends baseTest {
     @Test(description = "VWSHADOW-6591")
 
 
-    public static void loginIntoAtEvent(String username, String password) throws InterruptedException
-    {
-        //logout if some user is already logged in before executing Login scenario
-        try {
-            if (WebDriverFactory.getDriver().findElement(by_logout).isDisplayed()) {
-                {
-                    loginPage.clickLogoutButton();
-                    Login(username, password);
-                }
-            }
-        } catch (Exception e) {
-            Login(username, password);
-        }
-    }
+//    public static void loginIntoAtEvent(String username, String password) throws InterruptedException
+//    {
+//        //logout if some user is already logged in before executing Login scenario
+//        try {
+//            if (WebDriverFactory.getDriver().findElement(by_logout).isDisplayed()) {
+//                {
+//                    loginPage.clickLogoutButton();
+//                    Login(username, password);
+//                }
+//            }
+//        } catch (Exception e) {
+//            Login(username, password);
+//        }
+//    }
 
     public static void Login(String username, String password) throws InterruptedException
     {

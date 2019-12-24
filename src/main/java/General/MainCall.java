@@ -15,7 +15,7 @@ public class MainCall {
 
     public static ExtentReports startReport()
     {
-        extent = new ExtentReports(System.getProperty("user.dir") + "/reports/ExtentReport.html", false);
+        extent = new ExtentReports(System.getProperty("user.dir") + "/reports/ExtentReport.html", true);
         extent.addSystemInfo("Environment", Environment);
         return extent;
     }
@@ -75,5 +75,6 @@ public class MainCall {
     public final static addPassengerAndPassportPage addPaxPass = new  addPassengerAndPassportPage();
 
     public final static AtEvent_Login login_page1 = new AtEvent_Login();
+    public final static Switch_AddNewGroup group = new Switch_AddNewGroup();
 
 }
