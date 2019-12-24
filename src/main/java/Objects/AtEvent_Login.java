@@ -13,7 +13,7 @@ public class AtEvent_Login {
    // public static By byLoginTopButton = By.cssSelector("");
     public static By byEmail = By.xpath("//*[@id='email']");
     public static By byPassword = By.xpath("//*[@id='password']");
-    public static By byLoginButton = By.xpath("//*[@id='login']");
+    public static By byLoginButton = By.xpath("/html/body/div/div/div/div/form/input[3]");
 //    public static By by_logout = By.xpath("//span[contains(text(), 'Logout')]");
 //    private static By byNameverify = By.cssSelector(".my-account-page > div");
 

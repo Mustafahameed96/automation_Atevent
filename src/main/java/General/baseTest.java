@@ -66,7 +66,7 @@ public class baseTest{
 
     @AfterSuite()
     public void endReport() throws InterruptedException {
-        Thread.sleep(5000);
+//        Thread.sleep(5000);
         WebDriverFactory.finishDriver();
         if(IsEnableReporting.equals("true")) {
             MainCall.getExtentReport().flush();

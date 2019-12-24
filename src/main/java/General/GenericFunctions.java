@@ -72,7 +72,6 @@ public class GenericFunctions {
                 break;
             }
         }
-        Thread.sleep(4000);
     }
 
 
@@ -133,14 +132,11 @@ public class GenericFunctions {
     public void selectContract() throws InterruptedException
     {
         WebDriverFactory.getDriver().findElement(byOpenContractList).click();
-        Thread.sleep(2000);
         WebDriverFactory.getDriver().findElements(byContractList).get(0).click();
-        Thread.sleep(2000);
     }
 
     public void selectAircraft() throws InterruptedException
     {
-        Thread.sleep(4000);
         WebDriverFactory.getDriver().findElement(byOpenAircraftList).click();
         WebDriverFactory.getDriver().findElement(byAircraftSelector).findElements(byAircraftList).get(1).click();
         //if non-contract aircraft prompt appears
@@ -148,29 +144,23 @@ public class GenericFunctions {
             if (WebDriverFactory.getDriver().findElement(byNonContractPrompt).isDisplayed()) {
                 {
                     WebDriverFactory.getDriver().findElement(byNonContractPrompt).click();
-                    Thread.sleep(2000);
                 }
             }
         } catch (Exception e) {
-            Thread.sleep(1000);
         }
     }
 
     public void selectRandomDate(String date) throws InterruptedException
     {
-        Thread.sleep(3000);
         Actions action = new Actions(WebDriverFactory.getDriver());
         action.sendKeys(WebDriverFactory.getDriver().findElement(byDate), date).build().perform();
-        Thread.sleep(2000);
     }
 
     public void selectRandomTime(String time) throws InterruptedException {
         //select time
-        Thread.sleep(3000);
         Actions action = new Actions(WebDriverFactory.getDriver());
         action.sendKeys(WebDriverFactory.getDriver().findElement(by_timePicker), (Keys.BACK_SPACE)).build().perform();
         action.sendKeys(WebDriverFactory.getDriver().findElement(by_timePicker), time).build().perform();
-        Thread.sleep(2000);
         WebDriverFactory.getDriver().findElement(byScreenAnywhere).click();
     }
 
@@ -178,9 +168,7 @@ public class GenericFunctions {
     {
         //add 1 passenger
         WebDriverFactory.getDriver().findElement(byPassengerOption).click();
-        Thread.sleep(2000);
         WebDriverFactory.getDriver().findElement(byIdentifyIncrementer).findElements(byButton).get(1).click();
-        Thread.sleep(2000);
         WebDriverFactory.getDriver().findElement(byConfirmPax).click();
     }
 
@@ -191,17 +179,14 @@ public class GenericFunctions {
 
     public void selectDepartureAirport(String airport) throws InterruptedException
     {
-        Thread.sleep(3000);
         WebDriverFactory.getDriver().findElement(bySelectDeparture).click();
         Actions action = new Actions(WebDriverFactory.getDriver());
         action.sendKeys(WebDriverFactory.getDriver().findElement(byInputField).findElement(byInput), airport).build().perform();
-        Thread.sleep(2000);
     }
 
     public void selectArrivalAirport(String airport) throws InterruptedException
     {
         WebDriverFactory.getDriver().findElement(bySelectArrival).click();
-        Thread.sleep(2000);
         Actions action = new Actions(WebDriverFactory.getDriver());
         action.sendKeys(WebDriverFactory.getDriver().findElement(byInputField).findElement(byInput), airport).build().perform();
         //fuel stop prompt
@@ -210,21 +195,17 @@ public class GenericFunctions {
             if (WebDriverFactory.getDriver().findElement(byOk).isDisplayed())
             {
                 WebDriverFactory.getDriver().findElement(byOk).click();
-                    Thread.sleep(2000);
             }
         }
         catch (Exception e)
         {
-            Thread.sleep(1000);
         }
     }
 
     public void selectRequestFlightButton() throws InterruptedException {
         WebDriverFactory.getDriver().findElement(bySubmitRequest).click();
-        Thread.sleep(2000);
         //Are you happy to confirm your purchase?
         WebDriverFactory.getDriver().findElement(byPurchasePrompt).click();
-        Thread.sleep(10000);
     }
 
 } 

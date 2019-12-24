@@ -64,7 +64,7 @@ public class WebDriverFactory {
         }
 
         driver.get(VW_Url);
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+//        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         return driver;
     }
 

@@ -6,8 +6,8 @@
             <!--Fsp user-->
             <class name="Testcases.AtEvent_LoginTest">
                 <methods>
-                    <parameter name="username" value="ghufran@gmail.com"/>
-                    <parameter name="password" value="Admin123!"/>
+                    <parameter name="username" value="switch3036@gmail.com"/>
+                    <parameter name="password" value="Switch123+-"/>
                     <include name="login into at Event"></include>
                 </methods>
             </class>
