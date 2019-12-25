@@ -18,6 +18,8 @@ public class Switch_AddgroupTest extends baseTest {
 
         MainCall.group.OpenGroupTabandAddNew();
         MainCall.group.AddNewGroup_PageOpened();
+        MainCall.group.AddNameandSelectDropDown();
+        MainCall.group.verify_GroupAdded();
 
 
     }
