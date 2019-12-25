@@ -11,12 +11,38 @@
                     <include name="login into at Event"></include>
                 </methods>
             </class>
-            <class name="Testcases.Switch_AddgroupTest">
-                <methods>
 
-                    <include name="My test"></include>
-                </methods>
-            </class>
+<!--            <class name="Testcases.Switch_AddgroupTest">-->
+<!--                <methods>-->
+
+<!--                    <include name="My test"></include>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--                        <class name="Testcases.Switch_AddNewProviderTest">-->
+<!--                            <methods>-->
+
+<!--                                <include name="My test 2"></include>-->
+<!--                            </methods>-->
+<!--                        </class>-->
+<!--            <class name="Testcases.Switch_CheckPublishedProvidersTest">-->
+<!--                <methods>-->
+
+<!--                    <include name="My test 2"></include>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Testcases.Switch_CheckUnPublishedProvidersTest">-->
+<!--                <methods>-->
+
+<!--                    <include name="My test 3"></include>-->
+<!--                </methods>-->
+<!--            </class> -->
+    <class name="Testcases.Switch_Provider_ScheduleTest">
+                            <methods>
+
+                                <include name="My test 4"></include>
+                            </methods>
+                        </class>
 
 
         </classes>

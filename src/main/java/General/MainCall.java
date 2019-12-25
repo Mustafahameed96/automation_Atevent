@@ -76,5 +76,13 @@ public class MainCall {
 
     public final static AtEvent_Login login_page1 = new AtEvent_Login();
     public final static Switch_AddNewGroup group = new Switch_AddNewGroup();
+    public final static Switch_AddNewProvider provider = new Switch_AddNewProvider();
+    public final static Switch_CheckPublishedProviders provider1 = new Switch_CheckPublishedProviders();
+    public final static Switch_CheckUnPublishedProviders provider2 = new Switch_CheckUnPublishedProviders();
+    public final static Switch_Provider_Schedule provider_schedule = new Switch_Provider_Schedule();
+
+
+
+
 
 }
