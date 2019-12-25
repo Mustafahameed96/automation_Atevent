@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class Switch_Provider_ScheduleTest extends baseTest {
 
     @Parameters({"username", "password"})
-    @Test(description = "VWSHADOW-6595")
+    @Test(description = "VWSHADOW-6594")
 
     public static void Login4() throws InterruptedException
     {

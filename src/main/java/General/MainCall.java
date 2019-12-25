@@ -80,6 +80,8 @@ public class MainCall {
     public final static Switch_CheckPublishedProviders provider1 = new Switch_CheckPublishedProviders();
     public final static Switch_CheckUnPublishedProviders provider2 = new Switch_CheckUnPublishedProviders();
     public final static Switch_Provider_Schedule provider_schedule = new Switch_Provider_Schedule();
+    public final static Switch_AddNewEvent provider_event = new Switch_AddNewEvent();
+
 
 
 

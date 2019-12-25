@@ -37,15 +37,22 @@
 <!--                    <include name="My test 3"></include>-->
 <!--                </methods>-->
 <!--            </class> -->
-    <class name="Testcases.Switch_Provider_ScheduleTest">
-                            <methods>
+<!--    <class name="Testcases.Switch_Provider_ScheduleTest">-->
+<!--            <methods>-->
 
-                                <include name="My test 4"></include>
-                            </methods>
-                        </class>
+<!--                <include name="My test 4"></include>-->
+<!--            </methods>-->
+<!--        </class>-->
+
+            <class name="Testcases.Switch_addNewEventTest">
+                <methods>
+
+                    <include name="My test 5"></include>
+                </methods>
+            </class>
 
 
-        </classes>
+</classes>
     </test>
 
 
