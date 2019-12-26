@@ -22,7 +22,6 @@ public class Switch_AddNewGroup {
 
     public void OpenGroupTabandAddNew(){
         WebDriverFactory.getDriver().findElement(byGroup_Button).click();
-        WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), 5);
         WebDriverFactory.getDriver().findElement(byAddGroup_Button).click();
 
 
@@ -46,22 +45,22 @@ public class Switch_AddNewGroup {
 
     }
 
-    public void AddNameandSelectDropDown(){
+    public void AddNameandSelectDropDown() throws InterruptedException {
          checker = GenericFunctions.generateRandomString(10);
         WebDriverFactory.getDriver().findElement(byName_Field).sendKeys(checker);
-        WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), 1);
-//        WebDriverFactory.getDriver().findElement(byAddGroup_Button).click();
         Select dropDown = new Select(WebDriverFactory.getDriver().findElement(byCity_dropDown));
         dropDown.selectByVisibleText("Dubai");
         WebDriverFactory.getDriver().findElement(bySave_button).click();
-        WebDriverWait wait2 = new WebDriverWait(WebDriverFactory.getDriver(), 4);
+        Thread.sleep(3000);
         WebDriverFactory.getDriver().findElement(byPublish_button).click();
+        Thread.sleep(3000);
+
 
     }
 
-    public void verify_GroupAdded(){
+    public void verify_GroupAdded() throws InterruptedException {
         WebDriverFactory.getDriver().findElement(byGroup_Button).click();
-        WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), 5);
+        Thread.sleep(3000);
          By groupcreated_exist = By.linkText(checker);
         if(WebDriverFactory.getDriver().findElement(groupcreated_exist).isDisplayed() ){
 

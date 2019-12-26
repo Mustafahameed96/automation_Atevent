@@ -12,44 +12,44 @@
                 </methods>
             </class>
 
-<!--            <class name="Testcases.Switch_AddgroupTest">-->
-<!--                <methods>-->
+            <class name="Testcases.Switch_AddgroupTest">
+                <methods>
 
-<!--                    <include name="My test"></include>-->
-<!--                </methods>-->
-<!--            </class>-->
+                    <include name="My test"></include>
+                </methods>
+            </class>
 
-<!--                        <class name="Testcases.Switch_AddNewProviderTest">-->
-<!--                            <methods>-->
+                        <class name="Testcases.Switch_AddNewProviderTest">
+                            <methods>
 
-<!--                                <include name="My test 2"></include>-->
-<!--                            </methods>-->
-<!--                        </class>-->
-<!--            <class name="Testcases.Switch_CheckPublishedProvidersTest">-->
-<!--                <methods>-->
+                                <include name="My test 2"></include>
+                            </methods>
+                        </class>
+            <class name="Testcases.Switch_CheckPublishedProvidersTest">
+                <methods>
 
-<!--                    <include name="My test 2"></include>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="Testcases.Switch_CheckUnPublishedProvidersTest">-->
-<!--                <methods>-->
+                    <include name="My test 2"></include>
+                </methods>
+            </class>
+            <class name="Testcases.Switch_CheckUnPublishedProvidersTest">
+                <methods>
 
-<!--                    <include name="My test 3"></include>-->
-<!--                </methods>-->
-<!--            </class> -->
-<!--    <class name="Testcases.Switch_Provider_ScheduleTest">-->
-<!--            <methods>-->
+                    <include name="My test 3"></include>
+                </methods>
+            </class>
+    <class name="Testcases.Switch_Provider_ScheduleTest">
+            <methods>
 
-<!--                <include name="My test 4"></include>-->
-<!--            </methods>-->
-<!--        </class>-->
+                <include name="My test 4"></include>
+            </methods>
+        </class>
 
-<!--            <class name="Testcases.Switch_addNewEventTest">-->
-<!--                <methods>-->
+            <class name="Testcases.Switch_addNewEventTest">
+                <methods>
 
-<!--                    <include name="My test 5"></include>-->
-<!--                </methods>-->
-<!--            </class>-->
+                    <include name="My test 5"></include>
+                </methods>
+            </class>
 
             <class name="Testcases.Switch_ChangeToProviderProfileTest">
                 <methods>
