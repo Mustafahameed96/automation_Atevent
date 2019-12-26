@@ -58,6 +58,13 @@
                 </methods>
             </class>
 
+            <class name="Testcases.Switch_AddNewServiceTest">
+                <methods>
+
+                    <include name="My test 6"></include>
+                </methods>
+            </class>
+
 
 </classes>
     </test>

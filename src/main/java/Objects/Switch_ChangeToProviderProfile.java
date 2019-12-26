@@ -79,16 +79,5 @@ public class Switch_ChangeToProviderProfile {
 
     }
 
-    public void logoutPartner(){
-        WebDriverFactory.getDriver().findElement(byLogout_DropDown).click();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        WebDriverFactory.getDriver().findElement(byLogout_button).click();
-        WebDriverFactory.getDriver().get(VW_Url);
 
-
-    }
 }
