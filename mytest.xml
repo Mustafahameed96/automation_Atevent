@@ -44,10 +44,17 @@
 <!--            </methods>-->
 <!--        </class>-->
 
-            <class name="Testcases.Switch_addNewEventTest">
+<!--            <class name="Testcases.Switch_addNewEventTest">-->
+<!--                <methods>-->
+
+<!--                    <include name="My test 5"></include>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+            <class name="Testcases.Switch_ChangeToProviderProfileTest">
                 <methods>
 
-                    <include name="My test 5"></include>
+                    <include name="My test 6"></include>
                 </methods>
             </class>
 

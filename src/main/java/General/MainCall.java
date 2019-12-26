@@ -1,6 +1,7 @@
 package General;
 
 import Objects.*;
+import Testcases.Switch_Provider_ScheduleTest;
 import com.relevantcodes.extentreports.ExtentReports;
 
 import static Config.configProperties.Environment;
@@ -47,6 +48,8 @@ public class MainCall {
     public final static Switch_CheckUnPublishedProviders provider2 = new Switch_CheckUnPublishedProviders();
     public final static Switch_Provider_Schedule provider_schedule = new Switch_Provider_Schedule();
     public final static Switch_AddNewEvent provider_event = new Switch_AddNewEvent();
+    public final static Switch_ChangeToProviderProfile provider_profile = new Switch_ChangeToProviderProfile();
+    public final static AtEvent_Login login_page2 = new AtEvent_Login();
 
 
 
