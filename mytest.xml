@@ -65,6 +65,12 @@
                 </methods>
             </class>
             <class name="Testcases.Switch_ProviderServiceToggler">
+            <methods>
+
+                <include name="My test 8"></include>
+            </methods>
+        </class>
+            <class name="Testcases.Switch_ArchiveSessionTest">
                 <methods>
 
                     <include name="My test 8"></include>

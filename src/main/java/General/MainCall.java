@@ -52,6 +52,8 @@ public class MainCall {
     public final static AtEvent_Login login_page2 = new AtEvent_Login();
     public final static Switch_AddNewService provider_service = new Switch_AddNewService();
     public final static Switch_ProviderServiceToggler provider_service_toggler = new Switch_ProviderServiceToggler();
+    public final static Switch_ArchiveServices provider_service_archive = new Switch_ArchiveServices();
+
 
 
 

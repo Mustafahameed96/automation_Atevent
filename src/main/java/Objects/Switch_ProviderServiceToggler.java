@@ -21,17 +21,7 @@ public class Switch_ProviderServiceToggler  {
 
     public String Service_Name ;
 
-
-
-
-
     public static By byActivityBox = By.xpath("//*[@id=\"activity-list\"]");
-
-
-
-
-    public static By byLogout_DropDown = By.xpath("/html/body/div/header/div/nav/div/ul[2]/li[2]/a");
-    public static By byLogout_button = By.xpath("//ul[@class='dropdown-menu edit-profile']//li//a");
 
     public void toggleAllServices() throws InterruptedException {
 
@@ -61,17 +51,5 @@ public class Switch_ProviderServiceToggler  {
 
 
 
-    public void logoutPartner() throws InterruptedException {
 
-
-
-        getDriver().findElement(byLogout_DropDown).click();
-
-        Thread.sleep(2000);
-
-        getDriver().findElement(byLogout_button).click();
-        getDriver().get(VW_Url);
-
-
-    }
 }
