@@ -17,11 +17,8 @@ public class Switch_AddNewServiceTest extends baseTest {
 
         MainCall.provider_service.openServicePage();
         MainCall.provider_service.fillForm();
-        MainCall.provider_service.logoutPartner();
 
 
-        MainCall.login_page2.enterUserDetails(UserName, Password);
-        MainCall.login_page2.clickLogin();
 
 
 

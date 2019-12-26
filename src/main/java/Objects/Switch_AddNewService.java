@@ -125,7 +125,6 @@ public class Switch_AddNewService  {
                break;
            }
            else{
-               System.out.println("Service Not Added");
 
            }
 
@@ -138,17 +137,5 @@ public class Switch_AddNewService  {
 
 
 
-      public void logoutPartner() throws InterruptedException {
 
-
-
-        getDriver().findElement(byLogout_DropDown).click();
-
-            Thread.sleep(2000);
-
-        getDriver().findElement(byLogout_button).click();
-        getDriver().get(VW_Url);
-
-
-    }
 }
