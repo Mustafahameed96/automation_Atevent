@@ -54,13 +54,11 @@ public class WebDriverFactory {
         }
 
         if(Environment.equals("QA")) {
-            VerificationCodeUrl = "http://ukdcapacheuat01.vistajet.local/VJET/1/customerApp/getUnverifiedCodeForUser/?email=";
-            VerifyAccountUrl = "https://myqa.vistajet.com/#/verify-account/";
+
         }
 
         else if (Environment.equals("UAT")) {
-            VerificationCodeUrl = "http://bpmtestpatch.vistajet.local:7003/VJET/1/customerApp/getUnverifiedCodeForUser/?email=";
-            VerifyAccountUrl = "https://myuat.vistajet.com/#/verify-account/";
+
         }
 
         driver.get(VW_Url);

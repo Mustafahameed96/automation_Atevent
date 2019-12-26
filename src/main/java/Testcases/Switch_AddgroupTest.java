@@ -7,7 +7,6 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import static Objects.loginPage.by_logout;
 
 public class Switch_AddgroupTest extends baseTest {
     @Parameters({"username", "password"})
