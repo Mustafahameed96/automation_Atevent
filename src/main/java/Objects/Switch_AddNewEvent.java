@@ -27,25 +27,6 @@ public class Switch_AddNewEvent {
 
 
 
-
-    public void openProviderPanel(){
-        WebDriverFactory.getDriver().findElement(byProvider_Button).click();
-    }
-
-    public void publisher_Open(){
-
-        WebDriverFactory.getDriver().findElement(byProviderPartner).click();
-
-
-
-    }
-    public void Schedule_open(){
-
-        WebDriverFactory.getDriver().findElement(bySchedule_button).click();
-
-
-    }
-
     public void AddNewEvent_open(){
 
         WebDriverFactory.getDriver().findElement(byAddNewEventButton).click();

@@ -14,9 +14,7 @@ public class Switch_addNewEventTest extends baseTest {
     public static void Login5() throws InterruptedException
     {
 
-        MainCall.provider_event.openProviderPanel();
-        MainCall.provider_event.publisher_Open();
-        MainCall.provider_event.Schedule_open();
+
         MainCall.provider_event.AddNewEvent_open();
         MainCall.provider_event.createEvent();
 

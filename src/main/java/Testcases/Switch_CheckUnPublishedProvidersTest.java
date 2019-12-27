@@ -15,6 +15,8 @@ public class Switch_CheckUnPublishedProvidersTest extends baseTest {
 
         MainCall.provider2.openProviderPanel();
         MainCall.provider2.publisher_panel_test();
+        MainCall.provider2.closeProviderPanel();
+
 
 
 

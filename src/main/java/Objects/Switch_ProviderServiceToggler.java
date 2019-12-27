@@ -33,12 +33,12 @@ public class Switch_ProviderServiceToggler  {
 
             if(toggler_btn.get(i).isSelected()){
                 toggler_btn.get(i).click();
-                Thread.sleep(500);
+                Thread.sleep(300);
             }
 
             else{
                 toggler_btn.get(i).click();
-                Thread.sleep(5000);
+                Thread.sleep(300);
             }
 
 

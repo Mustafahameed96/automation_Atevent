@@ -36,17 +36,7 @@ public class Switch_ChangeToProviderProfile {
 
 
 
-    public void openProviderPanel(){
-        WebDriverFactory.getDriver().findElement(byProvider_Button).click();
-    }
 
-    public void publisher_Open(){
-
-        WebDriverFactory.getDriver().findElement(byProviderPartner).click();
-
-
-
-    }
 
     public void changeToProviderProfile(){
 

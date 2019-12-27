@@ -19,12 +19,12 @@
                 </methods>
             </class>
 
-                        <class name="Testcases.Switch_AddNewProviderTest">
-                            <methods>
+<!--                        <class name="Testcases.Switch_AddNewProviderTest">-->
+<!--                            <methods>-->
 
-                                <include name="My test 2"></include>
-                            </methods>
-                        </class>
+<!--                                <include name="My test 2"></include>-->
+<!--                            </methods>-->
+<!--                        </class>-->
             <class name="Testcases.Switch_CheckPublishedProvidersTest">
                 <methods>
 

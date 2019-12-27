@@ -19,7 +19,7 @@ public class Switch_Provider_Schedule {
     public static By byProvider_Button = By.linkText("Provider");
     public static By byCheckPublisher_Button = By.linkText("Published");
     public static By byTabContent =  By.xpath("//*[@id=\"published\"]");
-    public static By byProviderPartner = By.cssSelector("#published > ul > li:nth-child(1) > a");
+    public static By byProviderPartner = By.xpath("//a[contains(text(),'Test Provider 92')]");
     public static By bySchedule_button = By.linkText("Schedule");
 
     public static By byMonth = By.xpath("/html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]");

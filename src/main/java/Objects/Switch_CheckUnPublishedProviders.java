@@ -18,6 +18,9 @@ public class Switch_CheckUnPublishedProviders {
 
     public static By byCheckUnPublisher_Button = By.cssSelector("#unpublished-tab > a");
     public static By byTabContent =  By.xpath("//*[@id=\"unpublished\"]");
+
+    public static By byProvider_Button = By.linkText("Provider");
+
     // test comment
 
 
@@ -40,5 +43,10 @@ public class Switch_CheckUnPublishedProviders {
 
 
 
+    }
+
+    public void closeProviderPanel(){
+        WebDriverFactory.getDriver().findElement(byProvider_Button).click();
+//        WebDriverFactory.getDriver().findElement(byCheckPublisher_Button).click();
     }
 }

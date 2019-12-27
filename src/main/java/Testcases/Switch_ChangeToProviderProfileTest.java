@@ -15,8 +15,6 @@ public class Switch_ChangeToProviderProfileTest extends baseTest {
     public static void Login4() throws InterruptedException
     {
 
-        MainCall.provider_profile.openProviderPanel();
-        MainCall.provider_profile.publisher_Open();
         MainCall.provider_profile.changeToProviderProfile();
         MainCall.provider_profile.verifyThatAdminPanelIsAccessed();
 
